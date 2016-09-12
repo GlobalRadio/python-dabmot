@@ -7,7 +7,9 @@ setup(name='dabmot',
       description='DAB MOT object assembly and decoding',
       author='Ben Poor',
       author_email='ben.poor@thisisglobal.com',
+      url='https://github.com/GlobalRadio/python-dabmot',
+      download_url='https://github.com/GlobalRadio/python-dabmot/tarball/1.0.0',
       packages=['mot'],
-      package_dir = {'' : 'src'}
+      package_dir = {'' : 'src'},
       keywords = ['dab', 'mot', 'radio']
      )
